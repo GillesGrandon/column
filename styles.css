@@ -11,8 +11,9 @@
     .cards {
     display : flex;
     justify-content: center;
-
+    align-items: center;
     border: 1px red solid;
+    height : 100vh;
    } 
 
 
@@ -27,23 +28,43 @@
    }
 
    .card-img-top{
-      width : 2em;
+      width : 3em;
       height : 2em;
+      margin-left: 1em;
+      margin-top: 1em;
    }
 
    .card-text {
     color : white;
-    height: 20em;
+    height: 12em;
    }
 
   .sedans {
       background-color: hsl(31, 77%, 52%);
+      color: hsl(31, 77%, 52%);
   }
 
   .suvs {
     background-color : hsl(184, 100%, 22%);
+    color : hsl(184, 100%, 22%);
   }
 
   .luxury {
     background-color : hsl(179, 100%, 13%);
+    color : hsl(179, 100%, 13%);
+  }
+
+  .btn {
+
+    width : 11em;
+    border-radius: 20px;
+    background-color: white;
+
+  }
+
+  .btn:hover {
+
+    color : white;
+    background-color: transparent;
+    border:  1px white solid;
   }
