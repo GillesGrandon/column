@@ -1,0 +1,49 @@
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+  }
+
+  .attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
+
+
+    .cards {
+    display : flex;
+    justify-content: center;
+
+    border: 1px red solid;
+   } 
+
+
+   .card {
+    width : 14rem;
+   } 
+
+   .card-title {
+    color: white;
+    font-size: 2em;
+
+   }
+
+   .card-img-top{
+      width : 2em;
+      height : 2em;
+   }
+
+   .card-text {
+    color : white;
+    height: 20em;
+   }
+
+  .sedans {
+      background-color: hsl(31, 77%, 52%);
+  }
+
+  .suvs {
+    background-color : hsl(184, 100%, 22%);
+  }
+
+  .luxury {
+    background-color : hsl(179, 100%, 13%);
+  }
